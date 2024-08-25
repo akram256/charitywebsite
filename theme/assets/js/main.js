@@ -497,7 +497,7 @@
   $("#play-video").on("click", function (e) {
     e.preventDefault();
     $("#video-overlay").addClass("open");
-    $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/RK1RRVR9A2g" frameborder="0" allowfullscreen></iframe>');
+    $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6CZX1K1DPSA" frameborder="0" allowfullscreen></iframe>');
   });
 
   $(".video-overlay, .video-overlay-close").on("click", function (e) {
@@ -518,7 +518,7 @@
   $("#play-video-two").on("click", function (e) {
     e.preventDefault();
     $("#video-overlay").addClass("open");
-    $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/RK1RRVR9A2g" frameborder="0" allowfullscreen></iframe>');
+    $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6CZX1K1DPSA" frameborder="0" allowfullscreen></iframe>');
   });
 
   $(".video-overlay, .video-overlay-close").on("click", function (e) {
